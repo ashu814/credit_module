@@ -1,0 +1,30 @@
+{
+  "name": "credit_module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
+    "start": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\""
+  },
+  "author": "Ashutosh Tiwari",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-stage-0": "*",
+    "nodemon": "*"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "joi": "^13.7.0",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17",
+    "nodemailer": "^6.6.2"
+  }
+}
